@@ -26,12 +26,6 @@ With a Master's in Computer Applications and experience as a Java Developer, I b
 
 ---
 
-### 📈 GitHub Stats
-
-![Jigna's GitHub Stats](https://github-readme-stats.vercel.app/api?username=your-github-username&show_icons=true&theme=tokyonight)  
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=your-github-username&layout=compact&theme=tokyonight)
-
----
 
 ### 📌 Pinned Projects
 
