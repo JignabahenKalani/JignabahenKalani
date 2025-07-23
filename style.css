@@ -1,0 +1,63 @@
+.theme-icon {
+  width: 28px;
+  height: 28px;
+  cursor: pointer;
+  display: none; /* Hide theme toggles */
+}
+
+h1.text-indigo-600,
+span.text-indigo-600,
+svg.text-indigo-600,
+a.text-indigo-600,
+a.text-indigo-700 {
+  color: rgb(97, 47, 20);
+}
+
+a.text-indigo-600:hover {
+  color: rgb(239, 165, 125);
+}
+a.bg-indigo-600 {
+  background-color: rgb(97, 47, 20);
+  color: white;
+}
+a.bg-indigo-600:hover {
+  background-color: rgb(222, 228, 251);
+  color:rgb(97, 47, 20);
+}
+a.text-indigo-700:hover{
+  background-color: rgb(97, 47, 20);
+  color: white;
+}
+
+.font-sans {
+  font-family: cursive;
+}
+
+img.border-indigo-500 {
+  border-color: #e9ae7e2b;
+}
+
+section.to-indigo-100 {
+  --tw-gradient-to: #e9ae7e;
+  
+}
+#contact{
+  background-color: #f6d5ba;
+}
+h2{
+  color:rgb(97, 47, 20); 
+}
+a.bg-blue-600 {
+    --tw-bg-opacity: 1;
+    background-color:  rgb(97, 47, 20);
+}
+a.bg-blue-600:hover {
+    --tw-bg-opacity: 1;
+    background-color: #e9ae7e;
+    color:  rgb(97, 47, 20);
+}
+p.text-gray-700{
+  color: #030100;
+  font-size: large;
+  font-family: 'Times New Roman', Times, serif;
+}
