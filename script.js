@@ -1,10 +1,10 @@
 // Typed.js animation
 new Typed('#typed-text', {
   strings: [
+    "Quick Learner",
+    "Problem Solver",
     "Web Developer",
     "Full Stack Developer",
-    "Problem Solver",
-    "Quick Learner",
     "Team Player",
     "Tech Enthusiast",
     "Frontend Developer",
