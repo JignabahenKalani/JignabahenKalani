@@ -42,6 +42,7 @@ Check out some of my work:
 
 - 🔗 [LinkedIn](https://www.linkedin.com/in/jignabahen-kalani-26489b2a5)
 - ✉️ jignakalani007@gmail.com
+- [Portfolio](https://jignabahenkalani.github.io/JignabahenKalani/)
 
 ---
 
