@@ -147,6 +147,14 @@ nav a:hover {
   background: linear-gradient(135deg, #aa75dc, #98c685);
   border-radius: 10px;
 } 
+
+#about p{
+  font-size: 1.2rem;
+  color: #060606;
+  max-width: 800px;
+  margin: auto;
+  line-height: 1.8;
+}
 #skills{
   text-align: center;
   padding: 4rem 2rem;
