@@ -7,9 +7,7 @@
 
 ### 🚀 About Me
 
-I'm a creative and dedicated developer with experience in backend development using **Java, Spring Boot**, and **RESTful APIs**, and growing expertise in **Python**, **Django**, and **React** from my current bootcamp at Step8up Academy.
-
-With a Master's in Computer Applications and experience as a Java Developer, I bring strong problem-solving skills, collaborative mindset, and a passion for building clean, scalable, and user-centered applications.
+👩‍💻 I’m a creative Full-Stack Developer with a background in Java & Spring Boot and growing skills in React, Node.js, and Django. I’ve built projects like a travel blog, portfolio site, and blog app—showcasing my love for clean, scalable, and user-friendly applications.
 
 ---
 
