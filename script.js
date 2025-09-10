@@ -16,7 +16,8 @@ document.addEventListener("DOMContentLoaded", () => {
     typeSpeed: 60,
     backSpeed: 40,
     loop: true,
-    backDelay: 2000
+    backDelay: 2000,
+    showCursor: false
   });
   // Skills data
   const skillsData = {

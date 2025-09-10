@@ -1,4 +1,4 @@
-/* Reset */
+
 * {
   margin: 0;
   padding: 0;
@@ -7,18 +7,11 @@
 body {
   font-family:'Times New Roman', Times, serif;
   line-height: 1.6;
-  background: linear-gradient(135deg, #aa75dc, #98c685);
-  color: #333;
+  background: #f4f4f4;
 }
-
-/* Header */
-/* header {
-  background: linear-gradient(135deg, #aa75dc, #98c685);
-  color: white;
-  padding: 1rem 0;
-  position: sticky;
-  top: 0;
-} */
+h1{
+  color: #4b0082;
+}
 
 /* Sticky header */
 header {
@@ -46,26 +39,25 @@ nav ul {
 }
 
 /* Mobile responsive */
-/* Mobile menu default hidden with max-height */
 @media (max-width: 768px) {
   nav ul {
     display: flex;
     flex-direction: column;
     background: linear-gradient(135deg, #aa75dc, #98c685);
     position: absolute;
-    top: 70px;  /* header height */
+    top: 70px; 
     right: 0;
     width: 200px;
     padding: 0 1rem;
     border-radius: 8px;
     overflow: hidden;
-    max-height: 0;           /* hide menu */
+    max-height: 0;     
     transition: max-height 0.3s ease-in-out, padding 0.3s ease-in-out;
   }
 
   nav ul.show {
-    max-height: 500px;       /* enough to show all links */
-    padding: 1rem;           /* add padding when open */
+    max-height: 500px;  
+    padding: 1rem;          
   }
 
   nav ul li {
@@ -95,25 +87,27 @@ nav ul {
   gap: 1.5rem;
 }
 nav a {
-  color: white;
+  color: rgb(255, 255, 255);
   text-decoration: none;
   font-weight: bold;
 }
 nav a:hover {
   text-decoration: underline;
-}
+} 
 
 /* Hero */
 .hero {
   text-align: center;
   padding: 4rem 2rem;
   background: linear-gradient(135deg, #aa75dc, #98c685);
+  border-radius: 10px;
 }
 .hero img {
   width: 150px;
   height: 150px;
   border-radius: 50%;
-  border: 4px solid white;
+  border: 4px solid transparent;
+  background: linear-gradient(135deg, #aa75dc, #98c685);
   margin-bottom: 1rem;
 }
 .hero h2 {
@@ -121,40 +115,64 @@ nav a:hover {
   margin-bottom: 0.5rem;
 }
 .hero .highlight {
-  color: #4f46e5;
+  color: #4b0082;
   font-weight: bold;
 }
 .hero p {
-  font-size: 1.2rem;
-  color: #444;
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  color: #4b0082;
+}
+.hero button {
+  padding: 0.7rem 1.5rem;
+  border-radius: 8px;
+  border: none;
+  background: #4b0082;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+.hero button a {
+  color: white;
+  text-decoration: none;
+} 
+.hero button:hover {
+  background: #549c6d;
 }
 
 #about{
   text-align: center;
   padding: 4rem 2rem;
   background: linear-gradient(135deg, #aa75dc, #98c685);
-}
+  border-radius: 10px;
+} 
 #skills{
   text-align: center;
   padding: 4rem 2rem;
   background: linear-gradient(135deg, #aa75dc, #98c685);
+  border-radius: 10px;
 }
 #projects{
   text-align: center;
   padding: 4rem 2rem;
   background: linear-gradient(135deg, #aa75dc, #98c685);
+  border-radius: 10px;
 }
+
 #contact{
   text-align: center;
   padding: 4rem 2rem;
   background: linear-gradient(135deg, #aa75dc, #98c685);
-} 
+  border-radius: 10px;
+}
 /* Sections */
 .section-title {
   text-align: center;
+  margin-top: 2rem;
   margin-bottom: 2rem;
   font-size: 2rem;
-  color: #4f46e5;
+  color:  #4b0082;
 }
 .container {
   width: 90%;
@@ -169,7 +187,7 @@ nav a:hover {
   padding: 0.5rem 1rem;
   border-radius: 8px;
   border: none;
-  background: #4f46e5;
+  background:  #4b0082;
   color: white;
   cursor: pointer;
   font-weight: bold;
@@ -179,7 +197,7 @@ nav a:hover {
   transform: scale(1.1);
 }
 .skills-buttons button.active {
-  background: #3730a3;
+  background:  #549c6d;
 }
 
 /* Skills grid */
@@ -210,7 +228,7 @@ nav a:hover {
 
 .skills-buttons button:hover,
 .skills-buttons button.active {
-  background-color: #a989d6;
+  background-color: #549c6d;
 }
 
 .skills-grid {
@@ -304,25 +322,23 @@ nav a:hover {
   transition: background 0.2s;
 }
 .project-links a.code {
-  background: #4f46e5;
+  background:  #4b0082;
   color: white;
 }
 .project-links a.code:hover {
-  background: #3730a3;
+  background:  #549c6d;
 }
 .project-links a.demo {
   background: #e0e7ff;
-  color: #3730a3;
+  color:  #4b0082;
 }
 .project-links a.demo:hover {
-  background: #c7d2fe;
+  background: #549c6d;
 }
 
 /* Footer */
 footer {
   text-align: center;
-  padding: 1rem;
-  background: #4f46e5;
-  color: white;
-  margin-top: 2rem;
+  padding: 4rem 2rem;
+  background: linear-gradient(135deg, #aa75dc, #98c685);
 }
